@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    place-items: center;
+}
+
+.container { 
+    
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    border: 2px solid white;size:default;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #343a40;
+    text-align: center;
+    color: white;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input{
+    background-color: black;
+    color: white;
+    border: 1px solid #0056b3;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #0056b3;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    margin-top: 3px;
+}
+
+input:focus, textarea:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.icon a{
+            text-decoration: none;
+            color: #fff;
+            }
+
+            .icon ion-icon{
+            color: #fff;
+            font-size: 30px;
+            padding-left: 10px;
+            padding-bottom: 8px;
+            transition: 0.3s ease;
+            }
+
+            .icon ion-icon:hover{
+            color: #0056b3;
+            }
+        
+            .main{
+            width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)25%,rgba(0,0,0,0.5)25%),url(3.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+            
+    </style>
+</head>
+<body><div class="">
+    <div class="container">
+        <form method="post" action="https://api.web3forms.com/submit">
+            <h1>Contact Me</h1>
+            <div class="input-group">
+                <input type="hidden" name="access_key" value="99a4f64d-e76b-4e29-9afd-395d14bccc34">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter Name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email" required>
+            </div>
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter Message" required></textarea>
+            </div>
+            <center><div class="icon">
+                <a href="https://www.facebook.com/vaibhav.sabale.9237?mibextid=ZbWKwL"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/mr_vaibhav_sabale?igsh=MzNlNGNkZWQ4Mg=="><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://x.com/Vaibhavsablale?t=ET3TInzCfZKs2LpwKpO_WQ&s=08"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://wa.me/918805386172"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fvaibhav-sabale-691362284&e=AT0SIPY0_G01BlP1-n1TqX_u_4j5rs2iQJVprGZTcM35xaorh9DzubOpu1vaOoKKhuY_3Yrso488d1Nw3jaTRawnAGcegiIicK7v-OqZVyXr_GO9x7D0uPw"><ion-icon name="logo-LinkedIn"></ion-icon></a>
+            </div></center>
+            <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+            <button type="submit">Send Message</button>
+        </form>
+    </div></div>
+</body>
+</html>
